@@ -1,5 +1,5 @@
 # UnityforNonGameApp
-The repository explain various use cases samples for Non Game App  
+The repository explain various use cases samples for Unity Non Game Mobile App  
 
 Various usecases
 
