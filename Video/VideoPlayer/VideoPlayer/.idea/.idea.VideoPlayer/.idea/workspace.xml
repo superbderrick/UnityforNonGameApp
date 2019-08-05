@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoPlayerHelper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="112">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <marker date="1564967295633" expanded="true" signature="6:125" ph="..." />
                 <marker date="1564967295633" expanded="true" signature="173:988" ph="{...}" />
@@ -133,12 +133,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564965427312</updated>
-      <workItem from="1564965429032" duration="1794000" />
+      <workItem from="1564965429032" duration="2570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1794000" />
+    <option name="totallyTimeSpent" value="2570000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -204,8 +204,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoPlayerHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="112">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <marker date="1564967295633" expanded="true" signature="6:125" ph="..." />
             <marker date="1564967295633" expanded="true" signature="173:988" ph="{...}" />
