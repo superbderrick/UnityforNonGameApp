@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="677d7e31-0ead-42af-93b9-3d0adb2f1597" name="Default Changelist" comment="" />
+    <list default="true" id="677d7e31-0ead-42af-93b9-3d0adb2f1597" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VideoPlayerSampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VideoPlayerSampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoPlayerHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoPlayerHelper.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,19 +12,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoPlayerHelper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="450">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
-                <marker date="1564967295633" expanded="true" signature="6:125" ph="..." />
-                <marker date="1564967295633" expanded="true" signature="173:988" ph="{...}" />
-                <marker date="1564967295633" expanded="true" signature="345:385" ph="{...}" />
-                <marker date="1564967295633" expanded="true" signature="415:487" ph="{...}" />
-                <marker date="1564967295633" expanded="true" signature="525:832" ph="{...}" />
-                <marker date="1564967295633" expanded="true" signature="889:981" ph="{...}" />
+                <marker date="1564992512266" expanded="false" signature="6:125" ph="..." />
+                <marker date="1564992512266" expanded="true" signature="173:1408" ph="{...}" />
+                <marker date="1564992512266" expanded="true" signature="383:423" ph="{...}" />
+                <marker date="1564992512266" expanded="true" signature="453:525" ph="{...}" />
+                <marker date="1564992512266" expanded="true" signature="563:870" ph="{...}" />
+                <marker date="1564992512266" expanded="true" signature="927:991" ph="{...}" />
+                <marker date="1564992512266" expanded="true" signature="1022:1401" ph="{...}" />
+                <marker date="1564992512266" expanded="true" signature="1064:1303" ph="{...}" />
+                <marker date="1564992512266" expanded="true" signature="1113:1212" ph="{...}" />
+                <marker date="1564992512266" expanded="true" signature="1229:1293" ph="{...}" />
+                <marker date="1564992512266" expanded="true" signature="1316:1395" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -47,8 +55,7 @@
       <facet id="riderModule/invalid/Default Android Facet" />
     </ignored-facets>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1002" />
@@ -61,11 +68,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -88,6 +94,7 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,11 +141,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564965427312</updated>
       <workItem from="1564965429032" duration="2570000" />
+      <workItem from="1564991909607" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2570000" />
+    <option name="totallyTimeSpent" value="3164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -150,26 +158,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1920" height="1002" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1002" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Captures" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32967034" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unity" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Captures" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -177,13 +174,24 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Build" order="8" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Logcat" order="13" />
+      <window_info anchor="bottom" id="Unit Tests" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Unity" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Errors In Solution" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,15 +212,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoPlayerHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="450">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
           <folding>
-            <marker date="1564967295633" expanded="true" signature="6:125" ph="..." />
-            <marker date="1564967295633" expanded="true" signature="173:988" ph="{...}" />
-            <marker date="1564967295633" expanded="true" signature="345:385" ph="{...}" />
-            <marker date="1564967295633" expanded="true" signature="415:487" ph="{...}" />
-            <marker date="1564967295633" expanded="true" signature="525:832" ph="{...}" />
-            <marker date="1564967295633" expanded="true" signature="889:981" ph="{...}" />
+            <marker date="1564992512266" expanded="false" signature="6:125" ph="..." />
+            <marker date="1564992512266" expanded="true" signature="173:1408" ph="{...}" />
+            <marker date="1564992512266" expanded="true" signature="383:423" ph="{...}" />
+            <marker date="1564992512266" expanded="true" signature="453:525" ph="{...}" />
+            <marker date="1564992512266" expanded="true" signature="563:870" ph="{...}" />
+            <marker date="1564992512266" expanded="true" signature="927:991" ph="{...}" />
+            <marker date="1564992512266" expanded="true" signature="1022:1401" ph="{...}" />
+            <marker date="1564992512266" expanded="true" signature="1064:1303" ph="{...}" />
+            <marker date="1564992512266" expanded="true" signature="1113:1212" ph="{...}" />
+            <marker date="1564992512266" expanded="true" signature="1229:1293" ph="{...}" />
+            <marker date="1564992512266" expanded="true" signature="1316:1395" ph="{...}" />
           </folding>
         </state>
       </provider>

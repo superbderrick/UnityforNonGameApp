@@ -8,6 +8,8 @@ public class VideoPlayerHelper : MonoBehaviour
 {
     public RawImage videoScreen;
     public VideoClip videoClip;
+
+    public Button playOrPauseButton;
     
     private VideoPlayer videoPlayer;
     private VideoSource videoSource;
@@ -37,8 +39,28 @@ public class VideoPlayerHelper : MonoBehaviour
     private void OnPrepareCompleted(VideoPlayer source)
     {
         videoScreen.texture = videoPlayer.texture;
-        videoPlayer.Play();
 
+    }
+
+    public void PlayorPause()
+    {
+        if (videoPlayer.isPrepared)
+        {
+            if (videoPlayer.isPlaying)
+            {
+                videoPlayer.Pause();
+                
+                
+            }
+            else
+            {
+                videoPlayer.Play();
+            }
+        }
+        else
+        {
+            Debug.Log("Video Player is not prepared yet");
+        }
     }
     
 }
