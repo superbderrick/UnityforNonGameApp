@@ -39,7 +39,7 @@ public class VideoPlayerHelper : MonoBehaviour
     private void OnPrepareCompleted(VideoPlayer source)
     {
         videoScreen.texture = videoPlayer.texture;
-
+        videoPlayer.Play();
     }
 
     public void PlayorPause()
