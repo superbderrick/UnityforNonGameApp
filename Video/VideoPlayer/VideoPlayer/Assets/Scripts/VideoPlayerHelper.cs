@@ -9,16 +9,31 @@ public class VideoPlayerHelper : MonoBehaviour
     public RawImage videoScreen;
     public VideoClip videoClip;
 
-    public Button playOrPauseButton;
-    
+    private Button playButton , stopButton;
+
     private VideoPlayer videoPlayer;
     private VideoSource videoSource;
 
     private void Awake()
     {
-        SetupVideoPlayer();
+        SetupVideoPlayer();        
     }
 
+    private void Start()
+    {
+        setupButtons();
+    }
+
+    private void setupButtons()
+    {
+        Button playButton = GameObject.Find("PlayButton").GetComponent<Button>(); 
+        Button stopButton = GameObject.Find("StopButton").GetComponent<Button>();
+        
+        playButton.onClick.AddListener(PlayVideo);
+        stopButton.onClick.AddListener(StopVideo);
+    }
+
+   
     private void OnDestroy()
     {
         videoPlayer.prepareCompleted -= OnPrepareCompleted;
@@ -28,7 +43,7 @@ public class VideoPlayerHelper : MonoBehaviour
     private void SetupVideoPlayer()
     {
         videoPlayer = gameObject.AddComponent<VideoPlayer>();
-        videoPlayer.playOnAwake = false; 
+        videoPlayer.playOnAwake = true; 
         videoPlayer.source = VideoSource.VideoClip;
         videoPlayer.clip = videoClip;
         
@@ -39,28 +54,24 @@ public class VideoPlayerHelper : MonoBehaviour
     private void OnPrepareCompleted(VideoPlayer source)
     {
         videoScreen.texture = videoPlayer.texture;
-        videoPlayer.Play();
     }
 
-    public void PlayorPause()
+    public void PlayVideo()
     {
         if (videoPlayer.isPrepared)
         {
-            if (videoPlayer.isPlaying)
-            {
-                videoPlayer.Pause();
-                
-                
-            }
-            else
-            {
-                videoPlayer.Play();
-            }
+            videoPlayer.Play();
         }
-        else
+        
+    }
+
+    public void StopVideo()
+    {
+        if (videoPlayer.isPlaying)
         {
-            Debug.Log("Video Player is not prepared yet");
+            videoPlayer.Stop();
         }
+        
     }
     
 }

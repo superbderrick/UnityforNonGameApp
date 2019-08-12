@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="677d7e31-0ead-42af-93b9-3d0adb2f1597" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VideoPlayer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VideoPlayer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/VideoPlayerSampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/VideoPlayerSampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/VideoPlayerHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/VideoPlayerHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Videos/test.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Videos/test.mp4" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,26 +16,34 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoPlayerHelper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="346">
+              <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
               <folding>
-                <marker date="1565053518766" expanded="false" signature="6:125" ph="..." />
-                <marker date="1565053518766" expanded="true" signature="173:1435" ph="{...}" />
-                <marker date="1565053518766" expanded="true" signature="383:423" ph="{...}" />
-                <marker date="1565053518766" expanded="true" signature="453:525" ph="{...}" />
-                <marker date="1565053518766" expanded="true" signature="563:870" ph="{...}" />
-                <marker date="1565053518766" expanded="true" signature="927:1018" ph="{...}" />
-                <marker date="1565053518766" expanded="true" signature="1049:1428" ph="{...}" />
-                <marker date="1565053518766" expanded="true" signature="1091:1330" ph="{...}" />
-                <marker date="1565053518766" expanded="true" signature="1140:1239" ph="{...}" />
-                <marker date="1565053518766" expanded="true" signature="1256:1320" ph="{...}" />
-                <marker date="1565053518766" expanded="true" signature="1343:1422" ph="{...}" />
+                <marker date="1565597048849" expanded="false" signature="6:125" ph="..." />
+                <marker date="1565597048849" expanded="true" signature="173:1669" ph="{...}" />
+                <marker date="1565597048849" expanded="true" signature="386:434" ph="{...}" />
+                <marker date="1565597048849" expanded="true" signature="460:496" ph="{...}" />
+                <marker date="1565597048849" expanded="true" signature="529:817" ph="{...}" />
+                <marker date="1565597048849" expanded="true" signature="851:923" ph="{...}" />
+                <marker date="1565597048849" expanded="true" signature="961:1267" ph="{...}" />
+                <marker date="1565597048849" expanded="true" signature="1324:1387" ph="{...}" />
+                <marker date="1565597048849" expanded="true" signature="1416:1525" ph="{...}" />
+                <marker date="1565597048849" expanded="true" signature="1458:1510" ph="{...}" />
+                <marker date="1565597048849" expanded="true" signature="1554:1662" ph="{...}" />
+                <marker date="1565597048849" expanded="true" signature="1595:1647" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>videoPlayer.Play</find>
+      <find>debug</find>
+      <find>log</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -62,7 +66,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1002" />
+    <option name="height" value="1003" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -72,10 +76,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
       <pane id="UnityExplorer">
         <subPane>
@@ -127,10 +131,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="866">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="866" />
       <method v="2" />
     </configuration>
   </component>
@@ -147,11 +151,13 @@
       <workItem from="1564965429032" duration="2570000" />
       <workItem from="1564991909607" duration="665000" />
       <workItem from="1565051422166" duration="1189000" />
+      <workItem from="1565590685191" duration="3239000" />
+      <workItem from="1565597040352" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4424000" />
+    <option name="totallyTimeSpent" value="7672000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -163,10 +169,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1002" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1003" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -175,7 +181,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -215,29 +221,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.0.8/Rider/Editor/RiderInitializer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="36" column="124" lean-forward="true" selection-start-line="36" selection-start-column="124" selection-end-line="36" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.0.8/Rider/Editor/RiderInitializer.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/VideoPlayerHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        <state relative-caret-position="346">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
           <folding>
-            <marker date="1565053518766" expanded="false" signature="6:125" ph="..." />
-            <marker date="1565053518766" expanded="true" signature="173:1435" ph="{...}" />
-            <marker date="1565053518766" expanded="true" signature="383:423" ph="{...}" />
-            <marker date="1565053518766" expanded="true" signature="453:525" ph="{...}" />
-            <marker date="1565053518766" expanded="true" signature="563:870" ph="{...}" />
-            <marker date="1565053518766" expanded="true" signature="927:1018" ph="{...}" />
-            <marker date="1565053518766" expanded="true" signature="1049:1428" ph="{...}" />
-            <marker date="1565053518766" expanded="true" signature="1091:1330" ph="{...}" />
-            <marker date="1565053518766" expanded="true" signature="1140:1239" ph="{...}" />
-            <marker date="1565053518766" expanded="true" signature="1256:1320" ph="{...}" />
-            <marker date="1565053518766" expanded="true" signature="1343:1422" ph="{...}" />
+            <marker date="1565597048849" expanded="false" signature="6:125" ph="..." />
+            <marker date="1565597048849" expanded="true" signature="173:1669" ph="{...}" />
+            <marker date="1565597048849" expanded="true" signature="386:434" ph="{...}" />
+            <marker date="1565597048849" expanded="true" signature="460:496" ph="{...}" />
+            <marker date="1565597048849" expanded="true" signature="529:817" ph="{...}" />
+            <marker date="1565597048849" expanded="true" signature="851:923" ph="{...}" />
+            <marker date="1565597048849" expanded="true" signature="961:1267" ph="{...}" />
+            <marker date="1565597048849" expanded="true" signature="1324:1387" ph="{...}" />
+            <marker date="1565597048849" expanded="true" signature="1416:1525" ph="{...}" />
+            <marker date="1565597048849" expanded="true" signature="1458:1510" ph="{...}" />
+            <marker date="1565597048849" expanded="true" signature="1554:1662" ph="{...}" />
+            <marker date="1565597048849" expanded="true" signature="1595:1647" ph="{...}" />
           </folding>
         </state>
       </provider>

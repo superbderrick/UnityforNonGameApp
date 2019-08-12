@@ -123,7 +123,6 @@ GameObject:
   - component: {fileID: 31998592}
   - component: {fileID: 31998594}
   - component: {fileID: 31998593}
-  - component: {fileID: 31998595}
   m_Layer: 5
   m_Name: RawImage
   m_TagString: Untagged
@@ -185,21 +184,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31998591}
   m_CullTransparentMesh: 0
---- !u!114 &31998595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31998591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abe4aadee3f744b55a44c7c75e4570fd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  videoScreen: {fileID: 31998593}
-  videoClip: {fileID: 32900000, guid: c106238bfc93643efbb4c739194f0541, type: 3}
-  playOrPauseButton: {fileID: 0}
 --- !u!1 &51084127
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,7 +315,7 @@ GameObject:
   - component: {fileID: 93545055}
   - component: {fileID: 93545054}
   m_Layer: 5
-  m_Name: PlayPauseButton
+  m_Name: PlayButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -811,6 +795,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1424721461}
   m_CullTransparentMesh: 0
+--- !u!1 &2041026872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2041026874}
+  - component: {fileID: 2041026873}
+  m_Layer: 0
+  m_Name: VideoPlayerHelper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2041026873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041026872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe4aadee3f744b55a44c7c75e4570fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  videoScreen: {fileID: 31998593}
+  videoClip: {fileID: 32900000, guid: b43e5bd05aafc4282b474b86226bdb4f, type: 3}
+--- !u!4 &2041026874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041026872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 421.91934, y: 224.64603, z: -423.23035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2050820844
 GameObject:
   m_ObjectHideFlags: 0
